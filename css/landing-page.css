@@ -94,15 +94,22 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #48D1CC;
 }
 
+
+.content-section-c{
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #B0E0E6;
+}
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    background-color: #E0FFFF;
 }
-
 .section-heading {
     margin-bottom: 30px;
 }
@@ -180,3 +187,8 @@ p.copyright {
 #h1contato{
     text-align: center;
 }
+
+.thumbnail{
+    border: none;
+}
+
