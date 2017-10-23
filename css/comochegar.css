@@ -203,8 +203,8 @@ header.masthead {
 
 #portfolio * {
   z-index: 2; }
-
-@media (min-width: 767px) {
+/*hhhhh*/
+@media (min-width: 992px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
 
