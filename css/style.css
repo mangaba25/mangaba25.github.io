@@ -75,7 +75,7 @@ body {
 
 .container {
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 80px auto 0px auto;
 	padding: 60px 0;
 }
 
@@ -302,7 +302,11 @@ p {
 
 
 
-
+@media only screen and (max-width: 768px){
+	.menu-nav.mobile-menu{
+		width: 50%;
+	}
+}
 
 
 @media only screen and (max-width: 992px) {
@@ -356,6 +360,7 @@ p {
 	visibility: hidden;
 	transform: translate3d(60px, 0px, 0px);
 	transition: .3s;
+
 }
 
 .menu-nav.mobile-menu.active {

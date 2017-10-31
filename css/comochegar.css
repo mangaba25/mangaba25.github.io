@@ -16,20 +16,20 @@ a {
     color: #fec503; }
 
 
-section {
-  padding: 100px 0; }
-  section h2.section-heading {
+/*section {
+  padding: 100px 0; }*/
+section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px; }
-  section h3.section-subheading {
+section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   section {
     padding: 150px 0; } }
 
@@ -45,7 +45,7 @@ img::selection {
   background: transparent; }
 
 img::-moz-selection {
-  background: transparent; }
+  background: transparent; }*/
 
 
 
@@ -147,7 +147,7 @@ header.masthead {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; } }
 
-.service-heading {
+/*.service-heading {
   margin: 15px 0;
   text-transform: none; }
 
@@ -201,7 +201,7 @@ header.masthead {
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio * {
-  z-index: 2; }
+  z-index: 2; }*/
 /*hhhhh*/
 @media (min-width: 992px) {
   #portfolio .portfolio-item {
@@ -452,7 +452,9 @@ footer {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
-
+section#about{
+  margin-top: 0px;
+}
 section#about .section-heading {
     font-size: 36px;
     font-family: 'Bad Script', cursive;
@@ -484,6 +486,3 @@ section#about  .row p{
     font-size: 1.250em;
 }
 
-.comochegar{
-  margin-top: -60px;
-}
