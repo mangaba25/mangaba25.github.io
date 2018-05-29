@@ -1,0 +1,130 @@
+.business-header {
+	margin-top: 90px;
+  height: 50vh;
+  min-height: 300px;
+  background: url('http://www.cervejaegastronomia.com.br/wp-content/uploads/2018/01/dinner-601576_1920-1920x400.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
+
+
+
+
+@media (min-width: 540px) {
+	.business-header{
+	position: relative;
+	height: 400px;
+	margin-bottom: 100px;
+}
+
+#circle{
+	width: 200px;  height: 200px; background: #fff;border-radius: 100%; margin-top: 5%; position: absolute;
+}
+#comida{
+    font: italic normal normal 4em 'Bad Script', cursive;
+    left: 15px;
+    width: 115px;
+    position: absolute;
+    top: 13px;
+    letter-spacing: -0.06em
+}
+#tipica{
+	font: italic normal normal 4em 'Bad Script', cursive;
+	letter-spacing: -0.06em;
+	left:65px;
+    width: 115px;
+    position: absolute;
+    top: 65px;
+
+}
+#um{
+	font: italic normal normal 3em 'Bad Script', cursive; 
+	position: relative; 
+	display: block; 
+	background-color: #aaa;
+	bottom:-370px; 
+	padding: 0 10px; 
+	color: white;
+}
+
+
+
+.portifolio .card{
+	border: none;
+	position: relative;
+}
+
+.card-title{
+	color: #fff;
+	position: absolute;
+	left: -10px;
+	background-color:#DCDCDC;
+	top: -15px;
+	padding: 10px;
+	font-size: 1.5em;
+}
+}
+
+
+
+@media (max-width: 540px) {
+	.business-header{
+	position: relative;
+	height: 400px;
+	margin-bottom: 100px;
+}
+
+#circle{
+	width: 200px;  height: 200px; background: #fff;border-radius: 100%; margin-top: 5%; position: absolute;
+}
+#comida{
+    font: italic normal normal 4em 'Bad Script', cursive;
+    left: 15px;
+    width: 115px;
+    position: absolute;
+    top: 13px;
+    letter-spacing: -0.06em
+}
+#tipica{
+	font: italic normal normal 4em 'Bad Script', cursive;
+	letter-spacing: -0.06em;
+	left:65px;
+    width: 115px;
+    position: absolute;
+    top: 65px;
+
+}
+#um{
+	font: italic normal normal 3em 'Bad Script', cursive; 
+	position: relative; 
+	display: block; 
+	background-color: #aaa;
+	bottom:-370px; 
+	padding: 0 10px; 
+	color: white;
+}
+
+
+
+.portifolio .card{
+	border: none;
+	position: relative;
+}
+
+.card-title{
+	color: #fff;
+	position: absolute;
+	left: -10px;
+	background-color:#DCDCDC;
+	top: -15px;
+	padding: 10px;
+	font-size: 1.5em;
+}
+}
+

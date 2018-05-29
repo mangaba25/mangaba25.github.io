@@ -1,0 +1,78 @@
+.titulo{
+	margin: 150px 0 100px 0;
+}
+.titulo h1 {
+	font-family: 'Bad Script', cursive;
+	font-size: 3em;
+	font-weight: 600;
+	margin-bottom: -5px;
+}
+
+.titulo h3{
+	font-family: 'Bad Script', cursive;
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.descricao-cumuru{
+	position: relative;
+}
+.chamada-descricao-cumuru{
+	margin-top: -20px;
+	font-size: 2em;
+}
+@media (max-width: 991px){
+	.chamada-descricao-cumuru{
+		font-size: 1.5em;
+	}
+}
+
+.logo{
+	z-index: 1;
+}
+
+.card{
+	border:none;
+}
+.card-text{
+	text-align: justify;
+	font-size: 1.25em;
+}
+.img-fluid{
+	border-radius: 4px;
+}
+#aviso{
+	margin-top: 70px;
+}
+#aviso h1 {
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 5px #ccc;
+    color: #FF4500;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+}
+
+#aviso p {
+    font-family: 'Bad Script', cursive;
+     margin-bottom: 5px; 
+    font-size: 20px;
+    text-align: left;
+}
+
+#dica{
+	margin-top: 70px;
+}
+#dica h1 {
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 5px #ccc;
+    color: #00BFFF;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+}
+
+#dica p {
+    font-family: 'Bad Script', cursive;
+     margin-bottom: 5px; 
+    font-size: 20px;
+    text-align: left;
+}

@@ -1,0 +1,71 @@
+.item{
+	position: relative;
+}
+
+.nome-comercio{
+	position: absolute;
+	background-color: #155d74;
+	color: white;
+	top: -30px;
+	left: 40%;
+	padding: 10px;
+
+}
+
+.alert {
+    font-size: 24px;
+    padding: 20px;
+}
+.description{
+	margin-bottom: 20px
+}
+.description p{
+	text-align: justify;
+	margin-top: 20px;
+
+}
+p.contato{
+	margin-bottom: 0px;
+}
+.contato i{
+	margin-right: 10px;
+}
+.opcoes{
+	margin-top: 50px;
+}
+
+.opcao{
+	position: relative;
+}
+.opcao h1{
+	position: absolute;
+	color: white;
+	top: -20px;
+	left: 20px;
+	background-color: #155d74;
+	font-size: 30px;
+	padding: 10px;
+
+}
+
+
+@media (min-width: 992px){
+	.description p{
+	margin-top: -5px;
+	}
+}
+
+
+
+@media (max-width: 768px){
+	.opcao h1{
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 540px){
+	.nome-comercio{
+		position: absolute;
+		left: 32%;
+	}
+}
