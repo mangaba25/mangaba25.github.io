@@ -1,0 +1,180 @@
+         ul{
+         list-style: none;
+         padding: 0px;
+         margin: 0px;
+         }
+         .example {
+         color: #ccc;
+         text-align: left;
+         }
+         .example-item {
+         width: 25%;
+         height: 150px;
+         display: inline;
+         padding: 10px;
+         }
+         span{
+         margin-left: 10px;
+         }
+         i{
+         font-size: 1em;
+         }
+         p{
+         margin: 0;
+         }
+         .center{
+         text-align: center;
+         }
+         .oferta{
+         color: #007bff;
+         }
+/*         #item{
+          font-size: 3em;
+         }*/
+         #informacao{
+/*         background-color: yellow;
+         padding: 3px;
+         margin-top: 40px;*/
+         text-align: center;
+         }
+         .row{
+         margin:40px 0px;
+         }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  p{
+    font-size: 14px;
+  }
+
+  #informacao{
+    margin-top: 10px;
+         }
+  #informacao h6{
+    font-size: 14px;
+    color: #fff;
+  }
+  hr{
+    margin-bottom: .5em;
+    margin-top: .5em;
+  }
+}
+@media (max-width: 575.98px) {
+  #item{
+    padding: 10px 0px;
+    margin-top: 12px;
+    text-align: center;
+    background-color: red;
+  }
+  .preco{
+    margin-top: 20px
+  }
+  .oferta{
+    padding: 5px 0px;
+  }
+  .p{
+    font-size: 1.5em;
+  }
+  i{
+    font-size: 1.5em;
+    color: #acacac;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+  .oferta-preco{
+    font-size: 2em;
+  }
+  #informacao a{
+    font-size: 1.5em;
+  }
+  .example{
+    margin-bottom: 15px;
+  }
+
+
+}
+@media (max-width: 991.98px) {
+  #item{
+    padding: 10px 0px;
+    margin-top: 12px;
+    text-align: center;
+    background-color: red;
+    color: white;
+  }
+  .preco{
+    margin-top: 20px
+  }
+  .oferta{
+    padding: 5px 0px;
+  }
+  .p{
+    font-size: 1em;
+  }
+  i{
+    font-size: 1.5em;
+    color: #acacac;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+  .oferta-preco{
+    font-size: 2.5em;
+  }
+  #informacao a{
+    font-size: 1.5em;
+  }
+  .example{
+    margin-bottom: 15px;
+  }
+}
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background: url('http://www.cervejaegastronomia.com.br/wp-content/uploads/2018/01/dinner-601576_1920-1920x400.jpg') center center no-repeat scroll;
+  background-attachment: scroll;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+  margin-top: 90px;
+}
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem);
+  padding-bottom: 7rem;
+    background: url('http://www.cervejaegastronomia.com.br/wp-content/uploads/2018/01/dinner-601576_1920-1920x400.jpg') center center no-repeat scroll;
+
+/*  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+*/  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
